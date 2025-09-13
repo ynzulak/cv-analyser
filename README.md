@@ -71,9 +71,6 @@ Here’s how you can use the application:
 python main.py
 ```
 
-- `--job_offer`: path to a text file (or document) containing the job offer description.  
-- `--cv_dir`: path to a directory containing CV files to compare.
-
 After running, the app will output (to console or as a file, depending on implementation) the CVs ordered or filtered by how well they match the job offer.
 
 You may also find utility scripts/modules:
