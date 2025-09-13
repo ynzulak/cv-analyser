@@ -2,7 +2,6 @@
 
 An application that filters resumes (CVs) using job offer text.
 
----
 
 ## Table of Contents
 
@@ -15,13 +14,11 @@ An application that filters resumes (CVs) using job offer text.
 - [Possible Improvements](#possible-improvements)  
 - [License](#license)  
 
----
 
 ## Introduction
 
 CV‑Analyser is a Python application that helps streamline the process of matching job offers with applicant CVs. It takes a job offer text and a set of CV documents, and filters/ranks the CVs based on how well they match with the content of the job offer using natural language processing.
 
----
 
 ## Features
 
@@ -30,7 +27,6 @@ CV‑Analyser is a Python application that helps streamline the process of match
 - Computes similarity between CVs and job offer text (e.g., using cosine similarity).  
 - Outputs filtered or ranked list of CVs based on relevance to the job offer.
 
----
 
 ## Requirements
 
@@ -41,7 +37,6 @@ These are the minimal prerequisites to run the project:
 
 You’ll need typical NLP libraries, plus possibly PDF / Word document parsing tools depending on what formats of CVs you want to support.
 
----
 
 ## Installation
 
@@ -67,7 +62,6 @@ You’ll need typical NLP libraries, plus possibly PDF / Word document parsing t
    pip install -r requirements.txt
    ```
 
----
 
 ## Usage
 
@@ -88,7 +82,6 @@ You may also find utility scripts/modules:
 - `nlp.py` — for text processing (e.g. tokenization, cleaning, etc.).  
 - `cosine_similarity.py` — for computing similarity metrics between texts.
 
----
 
 ## Structure
 
