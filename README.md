@@ -68,7 +68,7 @@ You’ll need typical NLP libraries, plus possibly PDF / Word document parsing t
 Here’s how you can use the application:
 
 ```bash
-python main.py --job_offer "path/to/job_offer.txt" --cv_dir "path/to/cv_folder/"
+python main.py
 ```
 
 - `--job_offer`: path to a text file (or document) containing the job offer description.  
